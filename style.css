@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar{
+    height: 60px;
+    background-color: #024427;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+    outline: 1px solid red;
+
+    & .menu, .account-menu {
+        display: flex;
+
+        & li {
+            margin: 0 1rem;
+        }
+
+    }
+}
